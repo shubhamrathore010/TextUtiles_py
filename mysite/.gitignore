@@ -1,8 +1,31 @@
+# Python
+*.pyc
 __pycache__/
-*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Virtual Environment
+env/
+venv/
+ENV/
+*.env
+
+# SQLite database
 *.sqlite3
+
+# Django secret key (if separated)
+*.env
+
+# VS Code settings
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Compiled files
 *.log
-.env
-db.sqlite3
-/static/
-media/
+
+# Static files (optional if you use collectstatic)
+staticfiles/
